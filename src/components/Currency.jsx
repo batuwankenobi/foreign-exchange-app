@@ -58,4 +58,24 @@ function Currency() {
             <option>USD</option>
             <option>EUR</option>
             <option>TRY</option>
-          </select>
+          </select> 
+	    
+	    
+	    <FaArrowRight style={{ marginRight: "10px" }} />
+
+<select
+  onChange={(e) => setToCurrency(e.target.value)}
+  className="second-currency-option"
+>
+  <option>TRY</option>
+  <option>USD</option>
+  <option>EUR</option>
+</select>
+
+<input
+  value={result}
+  onChange={(e) => setResult(e.target.value)}
+  type="text"
+  className="result-input"
+/>
+</div>
