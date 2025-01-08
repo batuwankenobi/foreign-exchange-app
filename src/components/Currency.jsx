@@ -26,3 +26,15 @@ function Currency() {
       console.log("hata olustu ", error);
     }
   };
+  
+
+  return (
+	<div>
+	  <div className="currency-main">
+	    <div
+		style={{
+		  backgroundColor: "#5E5D5D",
+		  width: "100%",
+		  textAlign: "center",
+		  borderRadius: "5px",
+		}}
