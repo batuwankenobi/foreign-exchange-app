@@ -15,3 +15,21 @@
     height: 22px;
     margin-right: 10px;
 }
+
+.first-currency-option {
+    width: 70px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.second-currency-option {
+    width: 70px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.result-input {
+    width: 100px;
+    height: 22px;
+    margin-right: 10px;
+}
