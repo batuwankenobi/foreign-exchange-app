@@ -38,3 +38,24 @@ function Currency() {
 		  textAlign: "center",
 		  borderRadius: "5px",
 		}}
+		>
+		<h3 style={{ fontFamily: "arial", color: "#fff" }}>
+		EXCHANGE RATE APPLICATION
+		</h3>
+	    </div>
+	    <div style={{ marginTop: "20px" }}>
+          <input
+            id="amount"
+            type="number"
+            value={amount}
+            onChange={(e) => setAmount(e.target.value)}
+            className="amount-input"
+          />
+          <select
+            onChange={(e) => setFromCurrency(e.target.value)}
+            className="first-currency-option"
+          >
+            <option>USD</option>
+            <option>EUR</option>
+            <option>TRY</option>
+          </select>
