@@ -11,7 +11,18 @@ function Currency() {
 
 
 
-			
+
 	let token = "fca_live_FXhn90pUyFbfVTdrOWM2D7FM3b9wcfnXrzIYN0tO";
 	let baseUrl = "https://api.freecurrencyapi.com/v1/latest";
-    
+	
+    const exchange = async () => {
+    try {
+      const response = await axios.get(
+        `${baseUrl}?apikey=${token}&base_currency=${fromCurrency}`
+      );
+      const result = (response.data.data[toCurrency] * amount).toFixed(2);
+      setResult(result);
+    } catch (error) {
+      console.log("hata olustu ", error);
+    }
+  };
