@@ -79,3 +79,27 @@ function Currency() {
   className="result-input"
 />
 </div>
+
+<div className="button-main">
+          <button
+            style={{
+              width: "100px",
+              height: "30px",
+              border: "none",
+              backgroundColor: "green",
+              color: "#fff",
+              cursor: "pointer",
+              borderRadius: "5px",
+              marginTop: "20px",
+            }}
+            onClick={exchange}
+          >
+            Çevir
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Currency;
