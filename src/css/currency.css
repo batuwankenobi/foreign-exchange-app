@@ -1,0 +1,11 @@
+.currency-main {
+    margin-top: 50px;
+    border: 1px solid rgb(118, 118, 118);
+    width: 500px;
+    height: 200px;
+    border-radius: 5lx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
